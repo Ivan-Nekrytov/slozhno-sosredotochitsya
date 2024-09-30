@@ -1,1 +1,2 @@
-git@github.com:Ivan-Nekrytov/posmotri_v_okno.git
+git@github.com:Ivan-Nekrytov/slozhno-sosredotochitsya.git
+https://github.com/Ivan-Nekrytov/slozhno-sosredotochitsya
