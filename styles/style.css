@@ -1,8 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
   font-family: "IBM Plex mono", monospace;
 }
 
@@ -14,6 +11,9 @@
   position: relative;
   align-items: center;
   margin-bottom: 60px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header__theme-menu {
