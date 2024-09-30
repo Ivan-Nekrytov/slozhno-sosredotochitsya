@@ -3,7 +3,8 @@
   --accent-color: #FF0070;
   --text-color: #F1B2CE;
   --title-text-color: #DB00FF;
-  --accent-color-semi-transparent: #ff007066;
+  --accent-color-semi-transparent: #ff007066;  
+  background-color: #000028;
   background-image: url(../images/cover-image-dark.png);
 }
 
