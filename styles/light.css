@@ -18,9 +18,49 @@
     --background-color: #FFF1F7;
     --background-image: url(../images/cover-image-light.png);
   }
+
+  .page.theme_auto .dark-theme-only {
+    display: none;
+  }
+
+  .page.theme_auto .decorated-zone::before {
+    border-color: var(--text-color);
+  }
+
+  .page.theme_auto .decorated-zone::after {
+    border-color: var(--text-color);
+  }
+  
+  .page.theme_auto .header__theme-menu-button:hover {
+    border: 1px solid var(--text-color-semi-transparent);
+  }
+  
+  .page.theme_auto .content__header {
+    color: var(--text-color);
+  }
+  
+  .page.theme_auto .section__header {
+    color: var(--text-color);
+  }
+  
+  .page.theme_auto .header__text {
+    color: var(--text-color);
+  }
+  
+  .page.theme_auto .header__theme-menu-button {
+    color: var(--text-color);
+  }
+  
+  .page.theme_auto .header__theme-menu-button_active {
+    border: 1px solid var(--text-color);
+  }
 }
 
-.page.theme_light .decor {
+.page.theme_light .decorated-zone::before {
+  border-color: var(--text-color);
+}
+
+.page.theme_light .decorated-zone::after {
   border-color: var(--text-color);
 }
 

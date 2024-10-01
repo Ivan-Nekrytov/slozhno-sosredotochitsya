@@ -18,13 +18,37 @@
     --background-color: #000028;
     --background-image: url(../images/cover-image-dark.png);
   }
+
+  .page.theme_auto .header .dark-theme-only {
+    display: flex;
+  }
+
+  .page.theme_auto .header .dark-theme-only {
+    display: flex;
+  }
+  
+  .page.theme_auto .decorated-zone::before {
+    border-color: var(--accent-color);
+  }
+
+  .page.theme_auto .decorated-zone::after {
+    border-color: var(--accent-color);
+  }
+  
+  .page.theme_auto .header__theme-menu-button:hover {
+    border: 1px solid var(--accent-color-semi-transparent);
+  }
 }
 
 .page.theme_dark .header .dark-theme-only {
   display: flex;
 }
 
-.page.theme_dark .decor {
+.page.theme_dark .decorated-zone::before {
+  border-color: var(--accent-color);
+}
+
+.page.theme_dark .decorated-zone::after {
   border-color: var(--accent-color);
 }
 
