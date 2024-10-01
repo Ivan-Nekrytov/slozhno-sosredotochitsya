@@ -22,10 +22,6 @@
   .page.theme_auto .header .dark-theme-only {
     display: flex;
   }
-
-  .page.theme_auto .header .dark-theme-only {
-    display: flex;
-  }
   
   .page.theme_auto .decorated-zone::before {
     border-color: var(--accent-color);

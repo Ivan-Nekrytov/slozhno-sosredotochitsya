@@ -289,7 +289,7 @@
   outline: none;
 }
 
-@media (width <=768px) {  
+@media (width <=768px) {
   .header {
     min-height: 1024px;
   }
